@@ -1,0 +1,47 @@
+@import "TerminessTTFNerdFont";
+
+body {
+    font-family: "TerminessTTF Nerd Font", sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input, textarea {
+    margin-bottom: 1rem;
+}
+fieldset {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+body.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+.dark-mode .container {
+    background-color: #292929;
+    color: #ffa31a;
+    padding: 6px;
+    margin: 4px;
+    border: 1px solid #ffa31a;
+    box-shadow: 1px 1px 8px rgba(255, 165, 22),
+    1px 1px 8px rgba(0, 255, 255, 0.5),
+    1px 1px 8px rgba(238, 130, 238, 0.5);
+}
